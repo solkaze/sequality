@@ -21,6 +21,10 @@ public class CalculateTest {
     Calculate calculate_even = new Calculate();
     String expected_even = "Sum of even of 1 to 10 is 30.";
     assertEquals(expected_even, calculate_even.sum_order(1, 10, "even"));
+
+    Calculate calculate_faild = new Calculate();
+    String expected_faild = "Argument Error";
+    assertEquals(expected_faild, calculate_faild.sum_order(0, 0, "faild"));
   }
 
 }

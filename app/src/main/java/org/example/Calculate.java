@@ -53,7 +53,7 @@ public class Calculate {
       }
       return "Sum of even of " + x + " to " + y + " is " + sum_even + ".";
     } else {
-      return "Argument Error!";
+      return "Argument Error";
     }
   }
 }
