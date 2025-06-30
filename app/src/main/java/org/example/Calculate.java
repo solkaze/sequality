@@ -19,7 +19,7 @@ public class Calculate {
     double ave = (double) sum / cnt;
 
     // "and" or "to"
-    if (x - y == 1 || x - y == -1) {
+    if (y - x == 1) {
       return "Sum of " + x + " and " + y + " is " + sum + ". Average is " + ave + ".";
     } else {
       return "Sum of " + x + " to " + y + " is " + sum + ". Average is " + ave + ".";
