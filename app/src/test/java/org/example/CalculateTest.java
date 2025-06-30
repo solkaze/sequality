@@ -26,5 +26,4 @@ public class CalculateTest {
     String expected_faild = "Argument Error";
     assertEquals(expected_faild, calculate_faild.sum_order(0, 0, "faild"));
   }
-
 }
