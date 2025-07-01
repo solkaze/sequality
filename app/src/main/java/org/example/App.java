@@ -13,6 +13,6 @@ public class App {
     System.out.println(new Calculate().sum_order(2, 3));
     System.out.println(new Calculate().sum_order(1, 10));
     System.out.println(new Calculate().sum_order(1, 10, "odd"));
-    System.out.println(new Calculate().sum_order(1, 10, "even"));
+    System.out.println(new Calculate().sum_order(1, 10, "faild"));
   }
 }
