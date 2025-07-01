@@ -23,20 +23,12 @@ public class CalculateTest {
     assertEquals(expected_4, calculate_4.sum_order(10, 1));
 
     Calculate calculate_odd = new Calculate();
-    String expected_odd = "Sum of odd of 1 to 10 is 25.";
+    String expected_odd = "Sum of even of 1 to 10 is 30.\nSum of even of 1 to 10 is 30.";
     assertEquals(expected_odd, calculate_odd.sum_order(1, 10, "odd"));
 
     Calculate calculate_odd2 = new Calculate();
-    String expected_odd2 = "Sum of odd of 1 to 10 is 25.";
+    String expected_odd2 = "Sum of even of 1 to 10 is 30.\nSum of even of 1 to 10 is 30.";
     assertEquals(expected_odd2, calculate_odd2.sum_order(10, 1, "odd"));
-
-    Calculate calculate_even = new Calculate();
-    String expected_even = "Sum of even of 1 to 10 is 30.";
-    assertEquals(expected_even, calculate_even.sum_order(10, 1, "even"));
-
-    Calculate calculate_even2 = new Calculate();
-    String expected_even2 = "Sum of even of 1 to 10 is 30.";
-    assertEquals(expected_even2, calculate_even2.sum_order(10, 1, "even"));
 
     Calculate calculate_faild = new Calculate();
     String expected_faild = "Argument Error";

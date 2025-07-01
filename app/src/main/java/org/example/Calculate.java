@@ -38,20 +38,16 @@ public class Calculate {
     // odd
     if (type == "odd") {
       int sum_odd = 0;
+      int sum_even = 0;
       for (int i = x; i <= y; i++) {
         if (i % 2 == 1) {
           sum_odd += i;
-        }
-      }
-      return "Sum of odd of " + x + " to " + y + " is " + sum_odd + ".";
-    } else if (type == "even") {
-      int sum_even = 0;
-      for (int i = x; i <= y; i++) {
-        if (i % 2 == 0) {
+        } else {
           sum_even += i;
         }
       }
-      return "Sum of even of " + x + " to " + y + " is " + sum_even + ".";
+      return "Sum of odd of " + x + " to " + y + " is " + sum_odd + "." + "\n" + "Sum of even of " + x + " to " + y
+          + " is " + sum_even + ".";
     } else {
       return "Argument Error";
     }
